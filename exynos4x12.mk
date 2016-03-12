@@ -1,4 +1,4 @@
-# Copyright (C) 2012 The Android Open Source Project
+# Copyright (C) 2016 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@ ifeq ($(TARGET_BOARD_PLATFORM),exynos4)
 ifeq ($(TARGET_SOC),exynos4x12)
 
 include $(TARGET_HAL_PATH)/Android.mk
-include $(SAM_ROOT)/exynos/multimedia/Android.mk
+#include $(SAM_ROOT)/exynos/multimedia/Android.mk
 include $(SAM_ROOT)/exynos4/exynos4x12/Android.mk
 include $(SAM_ROOT)/exynos4/nfc/Android.mk
 
